@@ -34,23 +34,23 @@ cd Stocks_data_api
 
 2. **Start the server**:
 
-To run the server script (server_temp.js):
+- To run the server script (server_temp.js):
 
 ```bash
 npm run dev
 ```
-Or you can run the script directly:
+- Or you can run the script directly:
 
 ```bash
 npm run start2
 ```
 3. **Open the web interface**:
 
-Open public/index.html in your browser through a live server.
+- Open public/index.html in your browser through a live server.
 
-Enter a stock ticker (e.g., AAPL, MNRA.TA) and click Search.
+- Enter a stock ticker (e.g., AAPL, MNRA.TA) and click Search.
 
-The historical stock prices will appear below.
+- The historical stock prices will appear below.
 
 ---
 
@@ -69,12 +69,13 @@ Stocks_data_api/
 ---
 
 # Notes
-The scraper uses Puppeteer, which may download a Chromium browser on first run if node_modules isn’t included.
+- The scraper uses Puppeteer, which may download a Chromium browser on first run if node_modules isn’t included.
 
-API endpoint /api accepts POST requests with JSON { "stock_ticker": "TICKER" }.
+- API endpoint /api accepts POST requests with JSON { "stock_ticker": "TICKER" }.
 
-Ensure you have a stable internet connection for Puppeteer to access Yahoo Finance.
+- Ensure you have a stable internet connection for Puppeteer to access Yahoo Finance.
 
-Feel free to modify the scraping logic or add new endpoints in server_temp.js.
+- Feel free to modify the scraping logic or add new endpoints in server_temp.js.
+
 
 
